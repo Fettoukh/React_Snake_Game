@@ -4,9 +4,11 @@
   "private": true,
   "homepage": "https://Fettoukh.github.io/React_Snake_Game",
   "dependencies": {
+    "@babel/compat-data": "^7.8.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "dotenv": "^8.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0"
@@ -35,6 +37,12 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "@babel/compat-data": "^7.8.0",
+    "@babel/preset-env": "^7.8.0",
+    "babel-loader": "^8.1.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.5.5"
   }
 }
